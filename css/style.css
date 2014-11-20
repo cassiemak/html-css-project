@@ -29,8 +29,18 @@ nav{
 }
 #photobanner{
   width:100%;
-  position:center;
+  /*position:center;*/
+  /*position: relative;*/
+  /*padding-bottom: 0px;*/
+  /*margin-bottom: 0px;*/
+  display: block;
 }
+#shadow{
+  width: 100%;
+  /*padding-top: 0px;*/
+  /*margin-top: 0px;*/
+}
+
 #banner{
   /*display:inline-block;*/
   border: 8px;
@@ -106,34 +116,58 @@ footer{
   display: inline-block;
   width: 30%;
   padding: 10px;
+  /*padding-top: 0;*/
+  /*height: 25%;*/
   vertical-align: text-top;
   /*position: */
   /*border-bottom: solid;*/
   /*border-color: gray;*/
+}
+.within {
+  display: block;
 }
 .blogroll{
   /*text-indent: 1px;*/
   /*padding-left: 3px;*/
   /*float: left;*/
 }
-.thin{
+/*.noline{*/
 /*  border-bottom: solid;
   border:2px;
   border-color: gray; */
   /*float: left;*/
-  font-style: underline;
+  /*font-style: underline;*/
+  /*color: gray;*/
+  /*text-decoration: none;*/
+  /*margin: 0px;*/
+/*}*/
+.listblogroll{
+  /*text-decoration: none;*/
+  /*color: gray;*/
+  list-style-type: none;
+  color: gray;
+  /*text-align: left;*/
+  /*text-indent: none;*/
+  list-style:none;
+  padding-left:0;
+}
+.thin{
+  /*margin: 0px;*/
+  color: gray;
+  text-decoration: none;
 }
 .foottitle{
   /*color: red;*/
 }
 #widget{
-  color: red;
-
+  color: gray;
+  list-style: none;
+  padding-left: 0;
 }
 #copyright{
   font-size: 14px;
   color: gray;
-  position: relative;
+  /*position: relative;*/
   float: bottom;
 }
 #broughtyou{

@@ -33,8 +33,9 @@
           </span>
         </span>
     </div>
-    <div id="photobanner">
-        <img src="images/photobanner.png">
+    <div>
+        <img id="photobanner" src="images/photobanner.png">
+        <img id="shadow" src="images/shadow_slider.png"> 
     </div>
     <div id="banner">
         <span class="banner-text">
@@ -94,35 +95,39 @@
   <div class="foot">
     <footer>
       <span class="blackbox">
-        <h4>Blogroll</h4>
-        <div id="blogroll">
-          <ul class="thin">Documention</ul>
-          <ul class="thin">Plugins</ul>
-          <ul class="thin">Suggest Idea</ul>
-          <ul class="thin">Support Forum</ul>
-          <ul class="thin">Themes</ul>
-          <ul class="thin">WordPress Blog</ul>
+        <div class="within"> <h4>Blogroll</h4> </div>
+        <div class="within" id="blogroll">
+          <ul class="listblogroll">
+            <li> <a href="" class="thin">Documention</a> </li>
+            <li> <a href="" class="thin">Plugins</a></li>
+            <li> <a href="" class="thin">Suggest Idea</a></li>
+            <li> <a href="" class="thin">Support Forum</a></li>
+            <li> <a href="" class="thin">Themes</a></li>
+            <li> <a href="" class="thin">WordPress Blog</a></li>
+          </ul>
         </div>
-        <div id="copyright"><p>Copyright 2010 Busy Hands</p></div>
+        <div class="within" id="copyright"><p>Copyright 2010 Busy Hands</p></div>
       </span>
       <span class="blackbox">
-        <h4>Text Widget</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        <div class="within"> <h4>Text Widget</h4> </div>
+        <div class="within"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> </div>
       </span>
       <span class="blackbox">
-        <h4>Meta Widget</h4>
-        <div id="widget">
-          <ul>Log in</ul>
-          <ul>Entries RSS</ul>
-          <ul>Comments RSS</ul>
-          <ul>WordPress.org</ul>
+        <div class="within"> <h4>Meta Widget</h4> </div>
+        <div class="within" >
+          <ul id="widget">
+            <li>Log in</li>
+            <li>Entries RSS</li>
+            <li>Comments RSS</li>
+            <li>WordPress.org</li>
+          </ul>
         </div>
-        <p id="broughtyou"> Theme brought to you by <a href="">Good Friends!</a></p>
+        <p class="within" id="broughtyou"> Theme brought to you by <a href="">Good Friends!</a></p>
       </span>
     </footer>
   </div>
